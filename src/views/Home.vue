@@ -11,7 +11,9 @@ export default {
   name: 'Home',
 
   methods: {
-   
+    navigateTo(name) {
+      this.$router.push({ name });
+    },
   },
 };
 </script>
